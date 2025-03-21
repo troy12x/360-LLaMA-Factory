@@ -74,7 +74,7 @@ We have updated `requirements.txt`, so you could simply create a new Python envi
 conda create -n 360-llama-factory python=3.11 -y  # LLaMA-Factory recommends Python 3.11
 conda activate 360-llama-factory
 
-git clone https://github.com/Qihoo360/360-LLaMA-Factory.git 
+git clone https://github.com/troy12x/360-LLaMA-Factory.gitt 
 cd 360-LLaMA-Factory
 pip install -e ".[torch,metrics,deepspeed]"
 ```
