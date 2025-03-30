@@ -8,12 +8,12 @@
   "alpaca_zh_demo": {
     "file_name": "alpaca_zh_demo.json"
   },
-  "glaive_toolcall_en_demo": {
-    "file_name": "glaive_toolcall_en_demo.json",
+  "quasar": {
+    "hf_hub_url": "qihoo360/Light-R1-SFTData",
+    "ranking": true,
     "formatting": "sharegpt",
     "columns": {
-      "messages": "conversations",
-      "tools": "tools"
+      "messages": "conversations"
     }
   },
   "glaive_toolcall_zh_demo": {
