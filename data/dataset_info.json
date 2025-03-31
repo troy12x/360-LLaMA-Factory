@@ -9,12 +9,17 @@
     "file_name": "alpaca_zh_demo.json"
   },
   "quasar": {
-    "hf_hub_url": "qihoo360/Light-R1-SFTData",
-    "ranking": true,
+    "file_name": "stage2-3k.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "conversations"
-    }
+    },
+     "tags": { 
+     "role_tag": "from", 
+     "content_tag": "value", 
+     "user_tag": "user", 
+     "assistant_tag": "assistant" 
+   } 
   },
   "glaive_toolcall_zh_demo": {
     "file_name": "glaive_toolcall_zh_demo.json",
