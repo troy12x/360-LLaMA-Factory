@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: deepseek-ai/DeepSeek-R1-Distill-Qwen-7B
+model_name_or_path: silx-ai/Quasar-ant
 
 ### method
 stage: sft
@@ -10,7 +10,7 @@ deepspeed: examples/deepspeed/ds_z3_config.json
 ### dataset
 dataset: quasar
 template: qwen
-cutoff_len: 20000
+cutoff_len: 32768
 overwrite_cache: true
 preprocessing_num_workers: 16
 packing: true
