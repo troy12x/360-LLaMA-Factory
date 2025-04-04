@@ -9,7 +9,7 @@
     "file_name": "alpaca_zh_demo.json"
   },
   "quasar": {
-    "file_name": "stage2-3k.json",
+    "file_name": "train.json",
     "formatting": "sharegpt",
     "columns": {
       "messages": "conversations"
