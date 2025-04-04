@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: silx-ai/Quasar-ant
+model_name_or_path: qihoo360/Light-R1-7B-DS
 
 ### method
 stage: sft
